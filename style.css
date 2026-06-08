@@ -6,6 +6,7 @@
     text-align: center;
     margin: 10%,5%;
     padding: 10%,10%;
+    padding-bottom:5%;
 }
 
 main.ch1,
@@ -61,7 +62,7 @@ h1.title3{
 }
 
 .home nav {
-    display: flex;
+    
     text-decoration: none;
     color: #963a17;
     justify-content: center;
@@ -115,4 +116,9 @@ a.nach3
 #resources{
     margin: 5%;
     text-align: center;
+}
+
+.google{
+    text-decoration: none;
+    color: #552310;
 }
