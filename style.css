@@ -74,6 +74,7 @@ p {
 }
 
 nav a {
+    justify-content: baseline;
     font-weight: bold;
     margin: 2%;
     padding: 2%;
@@ -102,7 +103,7 @@ a.nach3
 }
 
 .float-img {
- float: right;
+    float: right;
     max-width: 220px;
     margin: 0 0 1rem 1.5rem;
     border: thick solid #552310;
