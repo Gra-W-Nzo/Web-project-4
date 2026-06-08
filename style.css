@@ -1,0 +1,113 @@
+ body {
+    font-family: "Cormorant Garamond", serif;
+    background-color: rgba(167, 91, 14, 0.71);
+    color: #552310;
+    line-height: 1.4;
+    text-align: center;
+    margin: 10%,5%;
+    padding: 10%,10%;
+}
+
+main.ch1,
+main.ch2,
+main.ch3
+{
+    background-color: rgba(185, 127, 106, 0.83);
+    padding: 5%;
+    margin: 5%;
+    border: thick solid;
+    color: #27120a;
+    border-radius: 20px;
+}
+
+h1.title1,
+h1.title2,
+h1.title3{
+    font-size: 50px;
+    text-decoration: underline solid;
+    text-decoration-color: rgb(44, 15, 3)
+}
+
+
+.home main{
+    background: border-box, padding-box;
+    background-color: rgb(190, 104, 70);
+    margin: 5%;
+    border: dotted;
+    border-color: #e2e2e2;
+}
+
+#copy{
+    text-align: center;
+    padding: 2%;
+    margin: 5%;
+    line-height: 1.4;
+}
+
+.home h1 {
+    font-size: 5.5rem;
+    line-height: normal;
+}
+
+.home h2 {
+    line-height: 0;
+    font-size: 3.5rem;
+}
+.home h3 {
+    color: #902800;
+    font-style: italic;
+    text-align: center;
+    font-size: x-large;
+}
+
+.home nav {
+    display: flex;
+    text-decoration: none;
+    color: #963a17;
+    justify-content: center;
+}
+
+p {
+  text-align: left;
+  font-size: 1.20rem;
+}
+
+nav a {
+    font-weight: bold;
+    margin: 2%;
+    padding: 2%;
+    text-decoration: underline;
+    color: #552310;
+    font-size: 1.5rem;
+    background-color: rgb(190, 104, 70);
+    border:thick dotted;
+    border-color:#e2e2e2;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+    
+
+nav a:active{
+    color: rgb(255, 82, 23)
+}
+
+a.nach1,
+a.nach2,
+a.nach3
+{
+    background-color: rgba(185, 127, 106, 0.83);
+}
+
+.float-img {
+ float: right;
+    max-width: 220px;
+    margin: 0 0 1rem 1.5rem;
+    border: thick solid #552310;
+}
+
+.float-img img {
+  width: 100%;
+  height: auto;
+}
